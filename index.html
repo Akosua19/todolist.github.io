@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My project - To Do lis</title>
+    <style>
+        div {
+            text-align: center;
+            border: solid 2px black;
+            height: 200px;
+            width: 500px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-left: 250px;
+            margin-top: 50px;
+            background-color: brown;
+        }
+        
+        span {
+            text-align: center;
+        }
+        
+        input {
+            background-color: aqua;
+            height: 35px;
+        }
+        
+        button {
+            padding: 10px;
+            width: 50px;
+        }
+        
+        input,
+        button {
+            margin-top: 50px;
+        }
+        
+        button:hover {
+            background-color: chocolate;
+            cursor: grab;
+        }
+        
+        #todos {
+            margin-top: 25px;
+        }
+        
+        .paragraph-styling {
+            margin: 0;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1> To do List App</h1>
+        <input id="listName" type="text" name="item">
+        <button id="listButton">Add</button>
+    </div>
+
+    <span id="todos" class="toDoContainer"></span>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
